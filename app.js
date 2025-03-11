@@ -8,6 +8,13 @@ const app = express();
 
 // 中间件配置
 app.use(express.static('public'));
+
+// 添加验证文件路由
+app.get('/WW_verify_n72beZX7388hhSc7.txt', (req, res) => {
+  res.type('text/plain');
+  res.send('n72beZX7388hhSc7');
+});
+
 app.use(session({
   secret: process.env.SESSION_SECRET || 'your_session_secret',
   resave: false,

@@ -4,12 +4,16 @@
     {
       "src": "app.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/callback",
-      "dest": "/app.js"
+      "src": "/WW_verify_n72beZX7388hhSc7.txt",
+      "dest": "/public/WW_verify_n72beZX7388hhSc7.txt"
     },
     {
       "src": "/(.*)",
