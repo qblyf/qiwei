@@ -13,7 +13,11 @@
   "routes": [
     {
       "src": "/WW_verify_n72beZX7388hhSc7.txt",
-      "dest": "/public/WW_verify_n72beZX7388hhSc7.txt"
+      "dest": "/WW_verify_n72beZX7388hhSc7.txt"
+    },
+    {
+      "src": "/wxcallback",
+      "dest": "/app.js"
     },
     {
       "src": "/(.*)",
