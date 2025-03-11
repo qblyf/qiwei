@@ -6,14 +6,14 @@
       "use": "@vercel/node"
     },
     {
-      "src": "public/**",
+      "src": "WW_verify_n72beZX7388hhSc7.txt",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/WW_verify_n72beZX7388hhSc7.txt",
-      "dest": "/WW_verify_n72beZX7388hhSc7.txt"
+      "dest": "WW_verify_n72beZX7388hhSc7.txt"
     },
     {
       "src": "/wxcallback",
