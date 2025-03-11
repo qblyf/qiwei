@@ -81,7 +81,8 @@ app.get('/wxcallback', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+// 如果您的 app.js 文件中没有正确监听端口，请修改为类似这样：
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
